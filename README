@@ -1,0 +1,74 @@
+Date Slider
+Version: 1.o
+Release Date: October, 3 2005
+feedback@measuremap.com
+
+--------------------------------------------
+HOW TO USE SWF VERSION
+
+STEP ONE
+To use the SWF version look at example.html in your favorite editor
+Adjust the following variables in JavasScript
+	
+var date_range='today';
+Purpose: 	Sets the slider to display initial date range
+Options: 	Single day: 'today' or '20050805T00:00:00'
+		Multiday: '20050805T00:00:00-20050807T00:00:00'
+
+var line_color = '999999';	
+Purpose:	Changes color of baseline 
+
+Options: 	Hex Number ('333333')
+
+var box_color = '006699';
+Purpose:	Changes color individual bars
+
+Options: 	Hex Number ('333333')
+
+var bar_color = '0066CC';
+Purpose:	Changes color of the bar that follows handles 
+
+Options: 	Hex Number ('333333')
+
+var slider_variable = 'Things';
+Purpose:	Changes what variable is displayed in rollover widget 
+
+Options: 	Any value (don't get too long)
+
+var file_name = 'date_slider_data.xml';
+Purpose:	The name and location of XML file
+Options: 	Any relative or absolute value
+
+
+STEP TWO
+Upload the following files to your web server
+
+date_slider_open.swf
+example.html (page that had slider)
+javascript directory with all enclosed files (directory in same location as example.html page)
+
+STEP THREE
+Point to example.html on your server and enjoy!
+
+
+--------------------------------------------
+HOW TO USE FLA VERSION
+First makes sure you've downloaded the developers version
+
+
+STEP ONE
+Open date_slider_open.fla
+
+STEP TWO
+Open the following .as files
+
+com/measuremap/preloader.as
+com/measuremap/data.as
+com/measuremap/date_slider_actions.as
+com/measuremap/day_bar_actions.as
+
+Comments are contained within .as files
+
+STEP THREE
+Make your changes!
+
